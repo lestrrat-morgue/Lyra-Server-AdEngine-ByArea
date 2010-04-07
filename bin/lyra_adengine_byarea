@@ -1,0 +1,7 @@
+#!/usr/bin/env perl
+use strict;
+use blib;
+use lib "lib";
+use App::Lyra::AdEngine::ByArea;
+
+App::Lyra::AdEngine::ByArea->new_with_options->run();
